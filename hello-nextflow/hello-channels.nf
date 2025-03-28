@@ -3,9 +3,7 @@
 /*
  * Use echo to print 'Hello World!' to a file
  */
- /*
- * Use echo to print 'Hello World!' to a file
- */
+
 process sayHello {
 
     publishDir 'results', mode: 'copy'
@@ -33,3 +31,8 @@ workflow {
     // emit a greeting
     sayHello(params.greeting)
 }
+
+
+/*
+ * Use echo to print 'Hello World!' to a file
+ */
